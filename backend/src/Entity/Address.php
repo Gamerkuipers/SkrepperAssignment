@@ -2,11 +2,11 @@
 
 namespace App\Entity;
 
-use App\Repository\PhoneBookRepository;
+use App\Repository\AddressRepository;
 use Doctrine\ORM\Mapping as ORM;
 
-#[ORM\Entity(repositoryClass: PhoneBookRepository::class)]
-class PhoneBook
+#[ORM\Entity(repositoryClass: AddressRepository::class)]
+class Address
 {
     #[ORM\Id]
     #[ORM\GeneratedValue]
