@@ -23,7 +23,7 @@ class AddressService
         return $this->addressRepository->find($id);
     }
 
-    public function create(Address $address): Address|null
+    public function create(Address $address): ?Address
     {
         try {
             $this->addressRepository->add($address, true);
