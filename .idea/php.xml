@@ -2,10 +2,6 @@
 <project version="4">
   <component name="PhpIncludePathManager">
     <include_path>
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/common" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/collections" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/cache" />
-      <path value="$PROJECT_DIR$/backend/vendor/doctrine/annotations" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/yaml" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/webpack-encore-bundle" />
       <path value="$PROJECT_DIR$/backend/vendor/symfony/web-profiler-bundle" />
@@ -102,6 +98,10 @@
       <path value="$PROJECT_DIR$/backend/vendor/doctrine/doctrine-bundle" />
       <path value="$PROJECT_DIR$/backend/vendor/doctrine/deprecations" />
       <path value="$PROJECT_DIR$/backend/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/backend/vendor/doctrine/annotations" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />

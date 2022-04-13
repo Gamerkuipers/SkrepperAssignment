@@ -6,6 +6,7 @@
   - With extension: [Ctype](https://www.php.net/book.ctype), [iconv](https://www.php.net/book.iconv), [PCRE](https://www.php.net/book.pcre), [Session](https://www.php.net/book.session), [SimpleXML](https://www.php.net/book.simplexml), [Tokenizer](https://www.php.net/book.tokenizer)
 - [Composer](https://getcomposer.org/download/)
 - [Symfony CLI](https://symfony.com/download)
+- [nodeJS](https://nodejs.org/en/)
 
 ## Instructions
 
@@ -17,16 +18,25 @@
 5. Run "php bin/console doctrine:database:create"
 6. Run "php bin/console doctrine:migrations:migrate" and choose yes (is default)
 7. Run "symfony server:start" you can add "-d" to the end to start it detached from the console
-8. WooHoo the application is running and can be used to its fullest
+8. Run "npm install"
+9. Run "npm run build"
+10. WooHoo the application is running and can be used to its fullest
 
 ## Using the endpoints
 
-To use some endpoints as post it might be hard to do in your browser, there for i use [postman](https://www.postman.com/) or [insomnia](https://insomnia.rest/download)
+To use api endpoints use [postman](https://www.postman.com/) or [insomnia](https://insomnia.rest/download) or a different one (I only know these) because all requests are POST requests
+to get started create an account at "/register" and then login at "/login" and at "/user" click "create apikey" to create an apikey and then use your *username* and *apikey* to communicate with the api
 
-### Available endpoints
+*currently, I use a temporary apikey generator (name + amount of api keys)*
 
-- (GET) /address - get all records
-- (GET) /address/{id} - get one record
+### Available API endpoints
+to use any endpoint you need to give "username" and "apikey" in the body
+- (REQUIRED) string - username
+- (REQUIRED) string - apikey
+
+
+- (POST) api/address - get all records
+- (POST) api/address/{id} - get one record
   - id = int
 - (POST) /address/create - create a record
   - string - name

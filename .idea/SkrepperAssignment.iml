@@ -6,10 +6,6 @@
       <sourceFolder url="file://$MODULE_DIR$/symfony/src" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/symfony/tests" isTestSource="true" packagePrefix="App\Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/doctrine/common" />
-      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/doctrine/collections" />
-      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/doctrine/cache" />
-      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/doctrine/annotations" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/webpack-encore-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/web-profiler-bundle" />
@@ -106,6 +102,10 @@
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/doctrine/doctrine-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/doctrine/deprecations" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/doctrine/dbal" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/doctrine/common" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/doctrine/collections" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/doctrine/cache" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/doctrine/annotations" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
